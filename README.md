@@ -1,6 +1,6 @@
-# Introduction
+# Joint Camera Intrinsic and LiDAR-Camera Extrinsic Calibration. 
 
-Joint Camera Intrinsic and LiDAR-Camera Extrinsic Calibration. 
+
 
 ## Prerequisites
 
