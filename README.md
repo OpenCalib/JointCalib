@@ -5,7 +5,6 @@
 ## Prerequisites
 
 - Cmake
-- PCL1.7 
 - Opencv 2.4.13
 - PCL 1.9
 
