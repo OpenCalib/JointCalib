@@ -46,3 +46,5 @@ cmake .. && make
    <img src="./result/refine4.png" width="100%" height="100%" alt="Calibration result" div align=center />
    <img src="./result/refine8.png" width="100%" height="100%" alt="Calibration result" div align=center />
 
+### Reference
+The code is developed based on [camera calibration cpp](https://github.com/enazoe/camera_calibration_cpp)
