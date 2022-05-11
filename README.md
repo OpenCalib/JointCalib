@@ -1,5 +1,5 @@
 # Joint Camera Intrinsic and LiDAR-Camera Extrinsic Calibration. 
-This is a project for LiDAR to camera joint calibration. For more calibration codes, please refer to the link <a href="https://github.com/PJLab-ADG/SensorsCalibration" title="SensorsCalibration">SensorsCalibration</a>
+This is a project for LiDAR to camera joint calibration<a href="https://arxiv.org/abs/2202.13708" title="paper">[paper]</a>. For more calibration codes, please refer to the link <a href="https://github.com/PJLab-ADG/SensorsCalibration" title="SensorsCalibration">SensorsCalibration</a>
 
 
 ## Prerequisites
