@@ -62,8 +62,15 @@ void CameraCalibrator::get_result(cv::Mat &camera_matrix, cv::Mat &k,
                                   std::vector<cv::Mat> &rvecsMat,
                                   std::vector<cv::Mat> &tvecsMat) {
   double re_error =
-      cv::calibrateCamera(_boards_pts_3d, _imgs_pts, image_size, camera_matrix,
-                          k, rvecsMat, tvecsMat, CV_CALIB_FIX_PRINCIPAL_POINT);
+      cv::calibrateCamera(_boards_pts_3d,
+                          _imgs_pts,
+                          image_size,
+                          camera_matrix,
+                          k,
+                          rvecsMat,
+                          tvecsMat,
+                          cv::CALIB_FIX_PRINCIPAL_POINT);
+
   std::cout << "reprojection is " << re_error << std::endl;
 
   Eigen::Matrix3d camera_intrinsic;
